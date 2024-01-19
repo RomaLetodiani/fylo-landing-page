@@ -1,3 +1,3 @@
 # React + TypeScript + Vite
 
-<img src='./public/design/desktop-preview.jpg'/>
+<img src='design/desktop-preview.jpg'/>

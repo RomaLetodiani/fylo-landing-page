@@ -6,7 +6,7 @@ import Middle from './components/scenes/Middle';
 
 const App = () => {
   return (
-    <div>
+    <div className="min-h-screen min-w-[320px]">
       <Header />
       <Hero />
       <Middle />

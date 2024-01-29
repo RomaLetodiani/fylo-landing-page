@@ -9,6 +9,7 @@ export const textObj = {
     desc: 'Fylo stores all your most important files in one secure location. Access them wherever you need, share and collaborate with friends, family, and co-workers.',
     button: 'Get Started',
     input: 'Enter your email...',
+    errorMessage: 'Please check your email',
     image: hero,
   },
   middle: {

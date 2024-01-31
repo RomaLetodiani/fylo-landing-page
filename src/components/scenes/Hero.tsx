@@ -40,8 +40,8 @@ const Hero = () => {
           </div>
         }
         rightDiv={
-          <div>
-            <img src={hero.image} alt="hero" />
+          <div className="max-w-[600px]">
+            <img className="w-full h-full" src={hero.image} alt="hero" />
           </div>
         }
       />

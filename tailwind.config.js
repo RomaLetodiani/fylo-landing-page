@@ -12,7 +12,7 @@ export default {
         'desaturated-blue': '#585989',
         'bright-blue': '#3065f8',
         'moderate-cyan': '#3c9f8f',
-        'light-grayish-blue': '#f6f6fe',
+        'light-grayish-blue': '#f8f8fe',
         'light-gray': '#bfbfbf',
       },
       backgroundImage: {

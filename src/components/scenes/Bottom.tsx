@@ -16,7 +16,7 @@ const Bottom = () => {
     (value) => value.includes('@') && value.includes('.') && value.length > 4
   );
   return (
-    <div className="bg-desaturated-blue py-10">
+    <div className="bg-desaturated-blue md:py-10">
       <SectionWrapper>
         <TwoColumns
           direction="reverse"

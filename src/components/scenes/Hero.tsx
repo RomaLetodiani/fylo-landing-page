@@ -2,11 +2,11 @@ import SectionWrapper from '../SectionWrapper';
 import Button from '../UI/Button';
 import Input from '../UI/Input';
 import TwoColumns from '../layout/TwoColumns';
-import { textObj } from '../shared/consts';
+import { GlobalObj } from '../shared/consts';
 import { useInput } from '../shared/hooks/UseInput';
 
 const Hero = () => {
-  const { hero } = textObj;
+  const { hero } = GlobalObj;
   const {
     value: emailValue,
     hasError: emailHasError,
@@ -24,7 +24,7 @@ const Hero = () => {
               {hero.title}
             </h1>
             <p className="text-very-dark-blue font-semibold">{hero.desc}</p>
-            <div className="flex flex-col md:flex-row md:items-center w-full gap-8 md:gap-5">
+            <div className="flex flex-col md:flex-row md:items-center w-full gap-5 md:gap-5">
               <Input
                 name="email"
                 type="email"

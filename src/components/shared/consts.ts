@@ -1,8 +1,8 @@
-import testimonial from '../../assets/images/avatar-testimonial.png';
+import testimonialAvatar from '../../assets/images/avatar-testimonial.png';
 import hero from '../../assets/images/illustration-1.svg';
 import middle from '../../assets/images/illustration-2.svg';
 
-export const textObj = {
+export const GlobalObj = {
   header: ['Features', 'Team', 'Sign In'],
   hero: {
     title: 'All your files in one secure location, accessible anywhere.',
@@ -23,7 +23,7 @@ export const textObj = {
       text: 'Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.',
       name: 'Kyle Burton',
       desc: 'Founder & CEO, Huddle',
-      image: testimonial,
+      image: testimonialAvatar,
     },
     image: middle,
   },

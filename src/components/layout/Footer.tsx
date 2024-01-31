@@ -1,7 +1,7 @@
-import { textObj } from '../shared/consts';
+import { GlobalObj } from '../shared/consts';
 
 const Footer = () => {
-  const { footer } = textObj;
+  const { footer } = GlobalObj;
   console.log('🚀 ~ Footer ~ footer:', footer);
   return <div>Footer</div>;
 };

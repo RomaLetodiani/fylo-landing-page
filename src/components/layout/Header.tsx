@@ -1,9 +1,9 @@
 import logo from '../../assets/images/logo.svg';
 import SectionWrapper from '../SectionWrapper';
-import { textObj } from '../shared/consts';
+import { GlobalObj } from '../shared/consts';
 
 const Header = () => {
-  const { header } = textObj;
+  const { header } = GlobalObj;
   return (
     <SectionWrapper>
       <div className="flex justify-between items-center gap-5 sm:gap-10 font-raleWay py-8 sm:py-16">

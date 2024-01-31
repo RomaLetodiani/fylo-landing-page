@@ -4,7 +4,7 @@ import tailwindcss from 'tailwindcss';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/fylo-landing-page-with-two-column-layout',
+  base: '/fylo-landing-page',
   plugins: [react()],
   css: {
     postcss: {

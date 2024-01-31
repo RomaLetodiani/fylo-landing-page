@@ -9,38 +9,33 @@ export const PhoneIcon = () => (
 );
 
 export const ArrowIcon = () => (
-  <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
-    <defs>
-      <circle id="b" cx="6" cy="6" r="6" />
-      <filter
-        x="-25%"
-        y="-25%"
-        width="150%"
-        height="150%"
-        filterUnits="objectBoundingBox"
-        id="a"
+  <svg
+    width="16x"
+    height="16px"
+    viewBox="0 0 32 32"
+    version="1.1"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <title>arrow-right-circle</title>
+    <desc>Created with Sketch Beta.</desc>
+    <defs></defs>
+    <g
+      id="Page-1"
+      stroke="none"
+      strokeWidth="1"
+      fill="none"
+      fill-rule="evenodd"
+    >
+      <g
+        id="Icon-Set-Filled"
+        transform="translate(-310.000000, -1089.000000)"
+        fill="#3DA08F"
       >
-        <feOffset in="SourceAlpha" result="shadowOffsetOuter1" />
-        <feGaussianBlur
-          stdDeviation="1"
-          in="shadowOffsetOuter1"
-          result="shadowBlurOuter1"
-        />
-        <feColorMatrix
-          values="0 0 0 0 0.239215686 0 0 0 0 0.62745098 0 0 0 0 0.560784314 0 0 0 0.793506567 0"
-          in="shadowBlurOuter1"
-        />
-      </filter>
-    </defs>
-    <g fill="none" fillRule="evenodd">
-      <g transform="translate(2 2)">
-        <use fill="#000" filter="url(#a)" />
-        <use fill="#3DA08F" />
+        <path
+          d="M332.535,1105.88 L326.879,1111.54 C326.488,1111.93 325.855,1111.93 325.465,1111.54 C325.074,1111.15 325.074,1110.51 325.465,1110.12 L329.586,1106 L319,1106 C318.447,1106 318,1105.55 318,1105 C318,1104.45 318.447,1104 319,1104 L329.586,1104 L325.465,1099.88 C325.074,1099.49 325.074,1098.86 325.465,1098.46 C325.855,1098.07 326.488,1098.07 326.879,1098.46 L332.535,1104.12 C332.775,1104.36 332.85,1104.69 332.795,1105 C332.85,1105.31 332.775,1105.64 332.535,1105.88 L332.535,1105.88 Z M326,1089 C317.163,1089 310,1096.16 310,1105 C310,1113.84 317.163,1121 326,1121 C334.837,1121 342,1113.84 342,1105 C342,1096.16 334.837,1089 326,1089 L326,1089 Z"
+          id="arrow-right-circle"
+        ></path>
       </g>
-      <path
-        d="M8.582 6l-.363.35 1.452 1.4H5.333v.5h4.338L8.22 9.65l.363.35 2.074-2z"
-        fill="#FFF"
-      />
     </g>
   </svg>
 );
